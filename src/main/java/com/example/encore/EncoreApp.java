@@ -18,6 +18,9 @@ public class EncoreApp extends Application {
         Image icon = new Image("Icon.png");
         stage.getIcons().add(icon);
         stage.setScene(scene);
+        String StyleSheet = getClass().getResource("Encore.css").toExternalForm();
+        scene.getStylesheets().add(StyleSheet);
+
         stage.show();
     }
 }

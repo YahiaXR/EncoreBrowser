@@ -10,6 +10,7 @@ public class EncoreControls {
     @FXML
     public void onHelloButtonClick() {
         welcomeText.setText("Encore is in pre-alpha!");
+        
     }
 
     public void PrintTest() {
