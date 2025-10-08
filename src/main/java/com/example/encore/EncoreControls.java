@@ -1,9 +1,11 @@
 package com.example.encore;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
 public class EncoreControls {
+    public Button StartKey;
     @FXML
     private Label welcomeText;
 
@@ -14,6 +16,6 @@ public class EncoreControls {
     }
 
     public void PrintTest() {
-        System.out.println("This is a test");
+        System.out.println("for real");
     }
 }

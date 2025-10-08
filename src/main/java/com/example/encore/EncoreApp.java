@@ -7,6 +7,7 @@ import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Objects;
 
 public class EncoreApp extends Application {
 
@@ -18,7 +19,7 @@ public class EncoreApp extends Application {
         Image icon = new Image("Icon.png");
         stage.getIcons().add(icon);
         stage.setScene(scene);
-        String StyleSheet = getClass().getResource("Encore.css").toExternalForm();
+        String StyleSheet = this.getClass().getResource("Encore.css").toExternalForm();
         scene.getStylesheets().add(StyleSheet);
 
         stage.show();
