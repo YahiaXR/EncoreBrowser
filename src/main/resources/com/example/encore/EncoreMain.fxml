@@ -14,7 +14,7 @@
     </padding>
    <AnchorPane prefHeight="200.0" prefWidth="200.0">
       <children>
-         <ToggleButton alignment="CENTER_LEFT" layoutX="35.0" layoutY="32.0" mnemonicParsing="false" onAction="#PrintTest" text="Lxxzy is trash" />
+         <ToggleButton alignment="CENTER_LEFT" layoutX="35.0" layoutY="32.0" mnemonicParsing="false" onAction="#switchToScene2" text="Lxxzy is trash" />
          <Slider layoutX="166.0" layoutY="18.0" />
       
           <Label fx:id="welcomeText" />

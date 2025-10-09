@@ -11,6 +11,7 @@ module com.example.encore {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
     requires java.desktop;
+    requires annotations;
 
     opens com.example.encore to javafx.fxml;
     exports com.example.encore;
